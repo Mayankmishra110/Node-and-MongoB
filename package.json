@@ -1,0 +1,19 @@
+{
+  "name": "node-and-mongob",
+  "version": "1.0.0",
+  "description": "node js tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/mayankmishra110/node-and-mongodb.git)"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^20.5.0"
+  }
+}

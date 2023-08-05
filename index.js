@@ -1,6 +1,10 @@
 const http = require('http');
+const data = require('./api');
+http.createServer((req,resp) =>{
 
-http.createServer((req,resp) => {
-    resp.write("hello this is maya");
+    resp.writeHead(200,{'Content-Type':'application\json}'});
+    resp.write(JSON.stringify({name:'Anil Sidhu',email:'mayank@mishra.com'}));
+    resp.write(JSON.stringify(data));
     resp.end();
-}).listen(4500);
+    // console.log("mayank")
+  }).listen(5000);
