@@ -7,4 +7,4 @@ http.createServer((req,resp) =>{
     resp.write(JSON.stringify(data));
     resp.end();
     // console.log("mayank")
-  }).listen(5000);
+  }).listen();
